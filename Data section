@@ -1,0 +1,6 @@
+  The data used for this project will be obtained from Foursquare (https://es.foursquare.com/) and from a wikepedia page containing the list of postal codes for Canada (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M). Information on neighborhoods as well as popular venues within them will be obtained from Foursquare.
+  First of all, we will extract the information from the Wikipedia page, which is a table containing 3 columns: Postcode, Borough	and Neighborhood. Then we will perform some modifications so as to have one line for each postal code. 
+  Next we will search for corrdinates for each postal code in toronto and add them as two seperate columns to the table.
+  Then, using Foursquare API, we will create a dataset containing all the venues in a radius of 1km to each borough. We suppose that 1km is the maximum distance that people are willing to walk to a certain business (in our case, a fast food restaurant).
+  Finally, we will calculate a value for each line (borough) that describes the degree of presence of fast food chains in that area. This will be a sum of the fast food chains present in that area, multiplied by the distance from the borough center
+
