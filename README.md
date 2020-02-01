@@ -1,6 +1,6 @@
 # New Business Location Recommendation System
 
-<b>Note</b>: This project part of the IBM's 'Professional Data Scientist' Certificate on Coursera that I got (course 9: Capstone Project)
+<b>Note</b>: This project is part of the IBM's 'Professional Data Scientist' Certificate on Coursera that I got (course 9: Capstone Project)
 
 In this project we will tackle one of the problems mentioned in the instructions for the assignment, which is a recommendation system of where to open a new business. If someone is looking to open a business in the city of Toronto, how can we recommend
 the best neighborhood to open his business in? The idea is that we want to open a business in a neighborhood where that venue type is least common to maximize profits and avoid competition.
